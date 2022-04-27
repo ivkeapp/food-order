@@ -1,5 +1,7 @@
 import CartIcon from "../Cart/CartIcon";
 import classes from "./HeaderCartButton.module.css";
+import {useState} from 'react';
+import CartContext from '../../store/cart-state';
 
 const HeaderCartButton = props => {
     return <button className={classes.button} onClick={props.onClick}>
