@@ -16,7 +16,7 @@ const MealItemForm = props => {
 
     if(enteredAmount.trim().length === 0 ||
     enteredAmountNo < 1 ||
-    enteredAmountNo > 5) {
+    enteredAmountNo > 10) {
       setAmountIsValid(false);
       return;
     }
@@ -30,7 +30,7 @@ const MealItemForm = props => {
         ref={amountInputRef}
         label="Količina" 
         input={{
-            id: 'amount',
+            id: 'amount', 
             type: 'number',
             min: '1',
             max: '10',
@@ -38,7 +38,7 @@ const MealItemForm = props => {
             defaultValue: '1'
         }}/>
         <button>+ Dodaj</button>
-        {!amountIsValid && <p>Molimo vas odaberite odgovarajuću količinu (1-5).</p>}
+        {!amountIsValid && <p>Molimo vas odaberite odgovarajuću količinu (1-10).</p>}
     </form>
   )
 }
