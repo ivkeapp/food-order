@@ -1,3 +1,17 @@
+# React Application Template for Food Ordering
+
+The application was developed for testing and research purposes.
+
+## Functionalities
+
+- Listing all food menu on the Homepage
+- Adding to cart
+- Editing cart
+
+## About
+
+The application is rather simple, but focused on file structuring of components. It has some basic shop cart functionality such as add/remove to/from cart as well as listing of meals.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
